@@ -1,0 +1,26 @@
+.swipe{
+  position: fixed;
+  display: inline;
+  background-color: transparent;
+  z-index: 350;
+}
+.swipe.swipe_up{
+  height: 5%;
+  width:100%;
+  top:0;
+}
+.swipe.swipe_down{
+  height: 5%;
+  width:100%;
+  bottom: 0;
+}
+.swipe.swipe_left{
+  height: 100%;
+  width:5%;
+  left: 0;
+}
+.swipe.swipe_right{
+  height: 100%;
+  width:5%;
+  right: 0;
+}
